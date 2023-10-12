@@ -1,0 +1,195 @@
+{
+    "About": {
+      "p1": "<span>I</span>ndonesia as the largest archipelagic country in the world consisting of seventeen thousand scattered islands, of course, has its own challenges in the distribution of health services. The large and dispersed area is the reason for the need for a large number of health workers spread throughout Indonesia to be able to provide optimal health services. Even though the quantity is not sufficient, the strengthening of resources in quality needs to be maximized.",
+      "p2": "<span>T</span>he desire to realize quality primary level health services has long been proclaimed in Indonesia. The idea of family medicine emerged from a number of doctors at the Faculty of Medicine, University of Indonesia after attending the International Conference of Family Medicine in the Philippines in the 1980s. Then on December 20, 1981, these figures formed the Family Physician Study Group (KSDK) in Jakarta.",
+      "h-founder": "<span>Family Physician Study Group</span> Founded by 16 people",
+      "p-founder": "Efforts towards developing family doctors in Indonesia continue to build relationships with family doctor organizations. One of the efforts made is with the International (WONCA). In 1983, Dr. dr. Judilherry Justam, MM and dr. Sudjoko Kuswadji attended the WONCA (World Organization of National Colleges, Academies and Academic Associations of General Practitioners/Family Physicians) Conference in Singapore. Then in 1986 there were about 30 doctors from Indonesia who attended the WONCA Conference in London. {br} {br} Before changing its name to the Association of Indonesian Family Doctors (PDKI) as it is now, this association underwent a metamorphosis and development over time.",
+  
+      "metamorphosis": {
+        "h": "Metamorphosis <span>Indonesian Family Doctors Association </span>",
+        "p1": "In 1990, the Family Doctor Study Group (KSDK) changed its name to the Indonesian Family Doctor College (KDKI) from the results of the 2nd Congress in Bali. In 1996, Family Doctors in Indonesia began to be recognized by the government with a Decree Minister No. 56/Menkes/SK/I/1996 concerning Family Physicians in the management of JPKM.Then in 1997, Permenkes No. 916/Menkes/Per/VIII/1997 concerning licenses to practice Doctors or dentists directed to become Family Doctors .",
+        "p2": "In 2003, the Indonesian Family Doctor College (KDKI) changed its name to the Association of Indonesian Family Doctors (PDKI) based on the results. {br} {br} Along with the development of the Family Medicine curriculum and the establishment of the Family Medicine Specialist level at several universities in Indonesia, PDKI in 2023 is proposing to change its name to the Association of Family Medicine Specialists. This proposal is currently being processed at MPPK PB-IDI."
+      },
+  
+      "association-chairman": {
+        "h": "Chairman of the Indonesian Family Association",
+        "p": "PDKI's journey is not an easy one, but full of dynamics and challenges. PDKI realizes that realizing optimal Primary Health Services requires cooperation from various stakeholders. For this reason, PDKI strives to continue to establish communication and relationships with various parties. At the time PDKI was focusing on compiling the Competency Standards for Family Medicine Specialists, almost simultaneously with the issuance of the Medical Education Law, one of its articles stated about the <strong>development of primary care doctors.</strong> For this reason, the Government, in this case the Ministry of Health, made preparations to upgrade -implemented the Education Law through coordination with IDI as a Professional Organization for the “primary service doctor concept“. IDI then assigned members of the Primary Service Doctors Association (PDPP) consisting of PDKI and PDUI to prepare their respective concepts. {br} {br} Ministry of Health then invited PDKI and PDUI to present the concept of primary care doctors. The concept of family medicine was then chosen to be the concept of primary care physician."
+      }
+    },
+  
+    "News": {
+      "description": "News and information",
+      "content": {
+        "h": "News",
+        "search-placeholder": "Search according to the news title..."
+      }
+    },
+  
+    "Conference": {
+      "description": "Conference and event",
+      "content": {
+        "h": "Conference",
+        "search-placeholder": "Search according to the conference title..."
+      }
+    },
+
+    "Member": {
+      "description": "Member of the Indonesian Association of Family Physicians",
+      "content": {
+        "h": "Member"
+      }
+    },
+
+    "Dedication": {
+      "description": "Bulletin"
+    },
+
+    "Branch": {
+      "description": "Information for each region",
+      "content": {
+        "h": "Region Information",
+        "filter": "Filter by province"
+      }
+    },
+  
+    "Navigation": {
+      "items": {
+        "1": "PDKI",
+        "2": "About",
+        "3": "News",
+        "4": "Conference",
+        "5": "Members",
+        "6": "P2KB",
+        "7": "Community Service",
+        "8": "PDKI Region",
+        "9": "Video"
+      }
+    },
+  
+    "Home": {
+      "trending-videos": {
+        "title": "Latest Training Videos"
+      },
+      "upcoming-conference": {
+        "title": "Upcoming Conference"
+      },
+      "trending-news": {
+        "title": "Trending News"
+      },
+      "quote": {
+        "content": "The Indonesian Family Doctor Association (Perhimpunan Dokter Keluarga Indonesia or PDKI) is a professional organization under the Indonesian Medical Association (IDI) that serves as a gathering platform for Indonesian family doctors. Family doctors, in their practice, apply the principles of family medicine with a biopsychosocial approach. The characteristics of family medicine services are comprehensive, continuous, coordinated, and collaborative care centered on the patient, focused on the family, oriented toward the community, prioritizing prevention, and based on the life cycle."
+      },
+      "latest-conference": {
+        "title": "Latest Conference",
+        "view-all": "See all"
+      },
+      "latest-news": {
+        "title": "Latest News",
+        "view-all": "See all"
+      }
+    },
+
+    "Login":  {
+      "header-text": "Login",
+      "login-as": "Login As",
+      "username": "Enter Username...",
+      "password": "Enter Password...",
+      "button-text": "Login",
+      "description": "Login can only be done by individuals who have access to log in"
+    },
+
+    "Get-connection": {
+      "header-text": "Register Yourself",
+      "description": "Stay updated with the latest news and conferences from PDKI",
+      "name": "Enter Name...",
+      "email": "Enter Email...",
+      "button-text": "Apply",
+      "disclaimer": "By submitting my information, I agree to receive personalized updates about news and conferences from PDKI, based on my information, interests, activities, website visits, and device data, in accordance with the privacy policy"
+    },
+
+    "Conference-detail": {
+      "text-back": "Back",
+      "link-url-left": "Click link Url :",
+      "link-url-last": "here"
+    },
+
+    "News-detail": {
+      "text-back": "Back",
+      "link-url-left": "Click link Url :",
+      "link-url-last": "here"
+    },
+  
+    "Header": {
+      "1": {
+        "title": "PDKI",
+        "description": "Indonesian Family Doctors Association"
+      },
+      "2": {
+        "title": "About",
+        "description": "About PDKI"
+      },
+      "3": {
+        "title": "News",
+        "description": "News and information"
+      },
+      "4": {
+        "title": "Conference",
+        "description": "Conference and event"
+      },
+      "5": {
+        "title": "Members",
+        "description": "Members of PDKI"
+      },
+      "6": {
+        "title": "Letters",
+        "description": "Letters from PDKI"
+      },
+      "7": {
+        "title": "Regions of PDKI",
+        "description": "Regions of PDKI"
+      },
+      "8": {
+        "title": "Training Videos",
+        "description": "Training Videos"
+      },
+      "button": "Add connection"
+    },
+  
+    "Regions": {
+      "description": "Scope and Territory",
+      "content": {
+        "h": "Regional Information",
+        "filter-label": "Filter by province"
+      }
+    },
+  
+    "TrainingVideos": {
+      "description": "Training Videos",
+      "content": {
+        "h": "Training Videos"
+      }
+    },
+  
+    "Footer": {
+      "about": {
+        "1": "Our Story",
+        "2": "Teams",
+        "3": "Careers"
+      },
+      "terms": {
+        "1": "Privacy & Disclaimer",
+        "2": "Ethical Guidelines",
+        "3": "Cookie Notice"
+      },
+      "contact-us": {
+        "1": "admin@gmail.com",
+        "2": "www.pdki.com",
+        "3": "+62 3445 6876 677"
+      }
+    },
+  
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, id {Indonesia} en {English} other {Unknown}}"
+    }
+}

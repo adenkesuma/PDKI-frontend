@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: rgba(0,0,255,0.5);
+  --thumb: eaeaea;
+}
+
+.text-stroke {
+    text-shadow: -1px -1px 0 #777, 1px -1px 0 #777, -1px 1px 0 #777, 1px 1px 0 #777;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+

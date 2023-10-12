@@ -1,0 +1,199 @@
+{
+    "About": {
+      "p1": "<span>I</span>ndonesia sebagai negara kepulauan terbesar di dunia yang terdiri tujuh belas ribu pulau yang tersebar, tentunya memiliki tantangan tersendiri dalam distribusi layanan Kesehatan. Wilayah yang luas dan terpencar-pencar menjadi alasan dibutuhkan banyak tenaga kesehatan yang tersebar di seluruh wilayah Indonesia untuk dapat memberikan pelayanan kesehatan yang optimal. Meskipun secara kuantitas belum memadai, namun penguatan sumber daya secara kualitas perlu dimaksimalkan.",
+      "p2": "<span>K</span>einginan untuk mewujudkan pelayanan kesehatan tingkat primer yang berkualitas, telah lama dicanangkan di Indonesia. Gagasan mengenai kedokteran keluarga muncul dari sejumlah Dokter di Fakultas Kedokteran Universitas Indonesia usai menghadiri International Conference of Family Medicine di Philipina tahun 1980-an. Kemudian pada 20 Desember tahun 1981, para tokoh ini membentuk Kelompok Studi Dokter Keluarga (KSDK) di Jakarta.",
+      "h-founder": "<span>Kelompok Studi Dokter Keluarga</span> Didirikan oleh 16 orang",
+      "p-founder": "Upaya-upaya ke arah pengembangan Dokter Keluarga di Indonesia terus menjalin relasi dengan Organisasi Dokter Keluarga terus dilakukan. Salah satu upaya yang dilakukan adalah dengan Internasional (WONCA). Pada tahun 1983, Dr.dr. Judilherry Justam, MM dan dr. Sudjoko Kuswadji menghadi WONCA (World Organization of National Colleges, Academies and Academic Associations of General Practitioners/Family Physicians) Conference di Singapura. Kemudian pada tahun 1986 ada sekitar 30 dokter dari Indonesia yang menghadiri WONCA Conference di London. {br} {br} Sebelum berganti nama menjadi Perhimpunan Dokter Keluarga Indonesia (PDKI) seperti sekarang, perhimpunan ini mengalami metamorphosis dan perkembangan dari waktu.",
+  
+      "metamorphosis": {
+        "h": "Metamorfosis <span>Perhimpunan Dokter Keluarga Indonesia </span>",
+        "p1": "Pada tahun 1990, Kelompok Studi Dokter Keluarga (KSDK) berubah nama menjadi Kolese Dokter Keluarga Indonesia (KDKI) dari hasil Kongres Ke-2 di Bali. Pada Tahun 1996, Dokter Keluarga di Indonesia mulai diakui oleh pemerintah dengan adanya Keputusan Menteri No. 56/Menkes/SK/I/1996 perihal Dokter Keluarga dalam pengelolaan JPKM. Kemudian pada tahun 1997, terbit Permenkes No. 916/Menkes/Per/VIII/1997 tentang surat izin praktek Dokter atau dokter gigi yang diarahkan menjadi Dokter Keluarga.",
+        "p2": "Di tahun 2003, Kolese Dokter Keluarga Indonesia (KDKI) berubah nama menjadi Perhimpunan Dokter Keluarga Indonesia (PDKI) berdasarkan hasil. {br} {br} Seiring dengan pengembangan kurikulum Kedokteran Keluarga dan pendirian jenjang Spesialis Kedokteran Keluarga di beberapa Universitas di Indonesia, maka PDKI pada tahun 2023 ini mengusulkan pergantian nama menjadi Perhimpunan Dokter Spesialis Kedokteran Keluarga. Usulan ini sedang dalam proses di MPPK PB-IDI."
+      },
+  
+      "association-chairman": {
+        "h": "Ketua Perhimpunan Keluarga Indonesia",
+        "p": "Perjalanan PDKI bukanlah perjalanan yang mudah, namun penuh dinamika dan tantangan. PDKI menyadari bahwa dalam mewujudkan Pelayanan Kesehatan Tingkat Primer yang optimal memerlukan Kerjasama dari berbagai stakeholder. Untuk itu, PDKI berupaya dengan terus menjalin komunikasi dan relasi dengan berbagai pihak. Pada saat PDKI sedang fokus dalam penyusunan Standar Kompetensi Spesialis Famili Medisin, hampir bersamaan dengan lahirnya UU Pendidikan Kedokteran yang salah satu pasalnya mencantumkan tentang <strong>pengembangan dokter layanan primer.</strong> Untuk itu, Pemerintah dalam hal ini Kemenkes melakukan persiapan untuk meng-implementasikan UU Dikdok melalui koordinasi dengan IDI Sebagai Organisasi Profesi untuk “konsep dokter layanan primer”. IDI kemudian menugaskan anggota Perhimpunan Dokter Pelayanan Primer (PDPP) yang terdiri dari PDKI dan PDUI untuk masing-masing menyiapkan konsepnya. {br} {br} Kemenkes kemudian mengundang PDKI dan PDUI untuk mempresentasikan konsep dokter layanan primer. Konsep kedokteran keluarga kemudian dipilih menjadi konsep dokter layanan primer."
+      }
+    },
+  
+    "News": {
+      "description": "Berita dan Informasi",
+      "content": {
+        "h": "Berita",
+        "search-placeholder": "Cari sesuai judul berita..."
+      }
+    },
+  
+    "Conference": {
+      "description": "Konferensi dan Acara",
+      "content": {
+        "h": "Konferensi",
+        "search-placeholder": "Cari sesuai judul konferensi..."
+      }
+    },
+
+    "Member": {
+      "description": "Anggota Perhimpunan Dokter Keluarga Indonesia",
+      "content": {
+        "h": "Anggota"
+      }
+    },
+
+    "Dedication": {
+      "description": "Buletin"
+    },
+
+    "Branch": {
+      "description": "Informasi Setiap Wilayah",
+      "content": {
+        "h": "Informasi wilayah",
+        "filter": "Filter sesuai provinsi"
+      }
+    },
+  
+    "Navigation": {
+      "items": {
+        "1": "PDKI",
+        "2": "Tentang",
+        "3": "Berita",
+        "4": "Konferensi",
+        "5": "Anggota",
+        "6": "P2KB",
+        "7": "Pengabdian Masyarakat",
+        "8": "PDKI Cabang",
+        "9": "Video"
+      }
+    },
+  
+    "Home": {
+      "trending-videos": {
+        "title": "Video Pelatihan Terbaru"
+      },
+      "upcoming-conference": {
+        "title": "Konferensi yang akan datang"
+      },
+      "trending-news": {
+        "title": "Berita Populer"
+      },
+      "quote": {
+        "content": "Perhimpunan Dokter Keluarga Indonesia (PDKI) merupakan organisasi profesi di bawah IDI, sebagai wadah berhimpun dokter keluarga Indonesia, yaitu dokter yang dalam pelayanannya menerapkan prinsip-prinsip pelayanan kedokteran keluarga dengan pendekatan biopsikososial. Karakteristik pelayanan kedokteran keluarga adalah pelayanan yang komprehensif, bersinambung, koordinatif dan kolaboratif, berpusat pada pasien, berfokus pada keluarga, berorientasi pada masyarakat, mengutamakan pencegahan, dan berbasis siklus kehidupan."
+      },
+      "latest-conference": {
+        "title": "Konferensi Terbaru",
+        "view-all": "Lihat Semua"
+      },
+      "latest-news": {
+        "title": "Berita Terbaru",
+        "view-all": "Lihat Semua"
+      }
+    },
+
+    "Login":  {
+      "header-text": "Masuk",
+      "login-as": "Masuk Sebagai",
+      "username": "Masukkan Username...",
+      "password": "Masukkan Password...",
+      "button-text": "Masuk",
+      "description": "Login hanya bisa dilakukan bagi orang yang memiliki akses untuk login"
+    },
+    
+    "Get-connection": {
+      "header-text": "Daftarkan Diri Anda",
+      "description": "Tetap selalu update dengan berita-berita dan konferensi terbaru dari PDKI",
+      "name": "Masukkan Nama...",
+      "email": "Masukkan Email...",
+      "button-text": "Daftar",
+      "disclaimer": "Dengan mengirimkan informasi saya, saya setuju untuk menerima pembaruan personalisasi tentang berita ataupun konferensi PDKI, berdasarkan informasi, minat, aktifitas, kunjungan situs web dan data perangkat saya, sesuai dengan kebijakan privasi"
+    },
+
+    "Conference-detail": {
+      "text-back": "Kembali",
+      "link-url-left": "Link url click :",
+      "link-url-last": "disini"
+    },
+
+    "News-detail": {
+      "text-back": "Kembali",
+      "link-url-left": "Link url click :",
+      "link-url-last": "disini"
+    },
+  
+    "Header": {
+      "1": {
+        "title": "PDKI",
+        "description": "Perhimpunan Dokter Keluarga Indonesia"
+      },
+      "2": {
+        "title": "About",
+        "description": "About PDKI"
+      },
+      "3": {
+        "title": "News",
+        "description": "News and information"
+      },
+      "4": {
+        "title": "Conference",
+        "description": "Conference and event"
+      },
+      "5": {
+        "title": "Members",
+        "description": "Members of PDKI"
+      },
+      "6": {
+        "title": "P2KB",
+        "description": "P2KB"
+      },
+      "7": {
+        "title": "Dedication",
+        "description": "Dedication from PDKI"
+      },
+      "8": {
+        "title": "Regions",
+        "description": "Regions of PDKI"
+      },
+      "9": {
+        "title": "Training Videos",
+        "description": "Training Videos"
+      },
+      "button": "Tambah Koneksi"
+    },
+  
+    "Regions": {
+      "description": "Lingkup dan Wilayah",
+      "content": {
+        "h": "Informasi daerah",
+        "filter-label": "Filter sesuai provinsi"
+      }
+    },
+  
+    "TrainingVideos": {
+      "description": "Video Pelatihan",
+      "content": {
+        "h": "Video Pelatihan"
+      }
+    },
+  
+    "Footer": {
+      "about": {
+        "1": "Cerita Kita",
+        "2": "Tim",
+        "3": "Karir"
+      },
+      "terms": {
+        "1": "Privasi & Penafian",
+        "2": "Pedoman Etis",
+        "3": "Pemberitahuan Cookie"
+      },
+      "contact-us": {
+        "1": "admin@gmail.com",
+        "2": "www.pdki.com",
+        "3": "+62 3445 6876 677"
+      }
+    },
+  
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, id {Indonesia} en {English} other {Unknown}}"
+    }
+}
