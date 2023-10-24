@@ -24,13 +24,13 @@ export default function LocaleSwitcher() {
   return (
     <div
       className={clsx(
-        "relative text-gray-700 flex justify-center items-center flex-row",
+        "relative border border-gray-400 rounded-xl px-2 text-gray-700 flex justify-center items-center flex-row",
         isPending && "transition-opacity [&:disabled]:opacity-30"
       )}
     >
       <p className="sr-only">{t("label")}</p>
       <select
-        className="inline-flex cursor-pointer appearance-none bg-transparent py-3 pl-2 pr-3"
+        className="inline-flex cursor-pointer text-sm appearance-none bg-transparent py-2 outline-none"
         defaultValue={locale}
         disabled={isPending}
         onChange={onSelectChange}

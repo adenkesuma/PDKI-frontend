@@ -54,11 +54,12 @@ const Header = ({ heading, subheading } : HeaderProps) => {
                 <Navigation />
                 <figure className="relative">
                     <Image 
-                        className="w-full h-[600px] object-cover bg-cover rounded-br-3xl rounded-bl-3xl"
+                        className="w-full h-[600px] object-cover bg-cover rounded-br-xl rounded-bl-xl"
                         src={Banner}
                         alt="banner image"
                         priority={true}
                     />
+
                     <div className="flex flex-col items-center gap-8 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                         <h1 className="-m-4 md:-m-8 text-stroke text-[50px] lg:text-[80px] text-center font-bold text-white">{heading}</h1>
                         <p className="text-center text-stroke text-[22px] sm:text-[30px] lg:text-[40px] font-semibold text-white">

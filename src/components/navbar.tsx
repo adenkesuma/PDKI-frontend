@@ -22,25 +22,25 @@ const Navbar: FC = () => {
     <>
       <nav className="py-4 px-4 sm:px-0 container mx-auto xl:px-8">
         <div className="flex justify-between items-center">
-          <Link href="/" className="font-bold text-2xl md:text-4xl">PDKI</Link>
+          <Link href="/" className="font-bold text-2xl md:text-4xl text-gray-800">PDKI</Link>
           <ul className="hidden sm:flex justify-center gap-0 md:gap-2 items-center">
             <li>
               <Image
-                className="w-[80px] md:w-[90px]"
+                className="w-[60px] md:w-[70px]"
                 src={IMA}
                 alt="logo the indonesian medical association"
               />
             </li>
             <li>
               <Image
-                className="w-[80px] md:w-[100px]"
+                className="w-[60px] md:w-[70px]"
                 src={WONCA}
                 alt="logo indonesian association of family physicians (IAFP)"
               />
             </li>
             <li>
               <Image
-                className="w-[80px] md:w-[80px]"
+                className="w-[60px] md:w-[60px]"
                 src={PDKI}
                 alt="logo WONCA (world family doctors caring for people 'ASIA FACIFIC')"
               />
@@ -50,21 +50,21 @@ const Navbar: FC = () => {
             session.user.admin_id ?
               <div className="flex justify-center gap-4 items-center">
                 <LocaleSwitcher />
-                <Link href={'/admin/dashboard'} className="bg-[#274698] px-6 py-[8px] duration-75 text-white md:py-[12px] md:px-8 rounded-3xl font-medium text-[16px] md:text-[18px]">
+                <Link href={'/admin/dashboard'} className="bg-[#274698] px-6 py-[8px] duration-75 text-white md:py-[10px] md:px-8 rounded-3xl font-medium text-[12px] md:text-[14px]">
                   Dashboard
                 </Link>
               </div>
               :
               <div className="flex justify-center gap-4 items-center">
                 <LocaleSwitcher />
-                <Link href={'/member/dashboard'} className="bg-[#274698] px-6 py-[8px] duration-75 text-white md:py-[12px] md:px-8 rounded-3xl font-medium text-[16px] md:text-[18px]">
+                <Link href={'/member/dashboard'} className="bg-[#274698] px-6 py-[8px] duration-75 text-white md:py-[12px] md:px-8 rounded-3xl font-medium text-[12px] md:text-[14px]">
                   Dashboard
                 </Link>
               </div>
             :
             <div className="flex justify-center gap-4 items-center">
-              <LocaleSwitcher />
-              <button onClick={handleShowLogin} className="bg-[#274698] px-6 py-[8px] duration-75 text-white md:py-[12px] md:px-8 rounded-3xl font-medium text-[16px] md:text-[18px]">
+              {/* <LocaleSwitcher /> */}
+              <button onClick={handleShowLogin} className="bg-[#274698] px-6 py-2 xl:text-base duration-75 text-white md:px-8 rounded-xl font-medium text-sm">
                 Login
               </button>
             </div>

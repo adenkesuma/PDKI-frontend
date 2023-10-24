@@ -3,9 +3,10 @@ import "./globals.css";
 import { montserrat } from "@/utils/font";
 import { NextIntlClientProvider, useLocale } from "next-intl";
 import { notFound } from "next/navigation";
+import Head from "next/head";
 
 export const metadata = {
-  title: "PDKI | perhimpunan dokter keluarga indonesia",
+  title: "Perhimpunan Dokter Keluarga Indonesia",
   description: "perhimpunan dokter keluarga indonesia",
   icons: {
     rel: "icon",
@@ -48,6 +49,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <Head>
+        <link rel='icon' href='./favicon.ico'/>
+      </Head>
       <body className={`${montserrat.className} bg-gray-100`}>
         <NextAuthProvider>
           <NextIntlClientProvider locale={locale} messages={dir}>
