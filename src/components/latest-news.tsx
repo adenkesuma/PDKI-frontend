@@ -10,46 +10,48 @@ const LatestNewsBox = ({ fourLatestNews }: { fourLatestNews: any }) => {
   const t = useTranslations("Home.latest-news")
 
   return (
-    <div className="mt-8">
+    <div className="mt-12">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-[20px] lg:text-[22px] font-semibold text-black">
+        <h2 className="text-base lg:text-2xl font-semibold text-gray-800">
           {t("title")}
         </h2>
-        <Link href="/news" className="flex justify-between items-center gap-1 sm:gap-2 font-medium text-[14px] md:text-[16px] lg:text-[18px]">
+        <Link href="/news" className="flex justify-between items-center gap-1 sm:gap-2 text-[#274698] font-medium text-xs md:text-sm">
           {t("view-all")}
           <TbChevronRight
-            className="w-8 h-8 font-semibold text-black"
+            className="w-6 h-6 font-semibold text-[#274684]"
           />
         </Link>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {fourLatestNews.map((item: NewsProps) => (
-          <div key={item.id}>
-            <figure className="h-[160px] relative block overflow-hidden rounded-tl-2xl rounded-tr-2xl">
+          <div 
+            key={item.id}
+            className="p-3 rounded-xl border boder-gray-200 flex flex-col gap-4"
+          >
+            <figure className="h-[160px] block overflow-hidden">
               <Image
                 width={300}
                 height={300}
-                className="duration-100 object-cover bg-cover h-full hover:scale-110 w-full rounded-tr-2xl rounded-tl-2xl"
+                className="duration-100 object-cover bg-cover h-full hover:scale-110 w-full rounded-lg"
                 src={process.env.BASE_URL + item?.image}
                 alt="news 1"
               />
-              <div className="absolute top-5 right-5 p-2 rounded-[50%] bg-[#fff] shadow-sm shadow-gray-600">
-                <Link href={`/news/${item.id}`}>
-                  <TbArrowUpRight className="w-[24px] h-[24px] text-[#274698]" />
-                </Link>
-              </div>
             </figure>
-            <div className="flex flex-col justify-between p-6 bg-[#274698] rounded-bl-2xl overflow-hidden rounded-br-2xl h-[140px]">
+            <div className="flex flex-col justify-between">
               <div>
-                <h4 className="text-white font-semibold text-[16px] text-ellipsis overflow-hidden whitespace-nowrap">{item.title}</h4>
-                <p className="text-gray-300 text-[14px] font-medium text-ellipsis overflow-hidden whitespace-nowrap">{item.description}</p>
+                <h4 className="text-gray-800 font-semibold text-[16px] text-ellipsis overflow-hidden whitespace-nowrap">{item.title}</h4>
+                <p className="text-gray-600 text-[14px] font-medium line-clamp-2 mt-1 text-sm">{item.description}</p>
               </div>
-              <div className="mt-4 flex justify-between items-center gap-6">
-                <span className="text-[14px] text-gray-100 font-medium overflow-hidden text-ellipsis whitespace-nowrap">{item.region}</span>
-                <span className="text-[14px] text-gray-100 font-medium">{item.tags}</span>
+              <div className="mt-4 flex justify-between items-center gap-8">
+                <span className="text-sm text-gray-600 font-medium whitespace-nowrap text-normal overflow-hidden w-1/2">{item.region}</span>
+                <span className="text-sm text-gray-600 font-medium whitespace-nowrap text-normal overflow-hidden w-1/2 text-end">{item.tags}</span>
               </div>
             </div>
+
+            <Link href={`/news/${item.id}`} className="p-2 text-sm font-medium w-full bg-[#274698] text-center rounded-lg text-white">
+              Detail
+            </Link>
           </div>
         ))}
       </div>

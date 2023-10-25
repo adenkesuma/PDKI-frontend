@@ -15,7 +15,7 @@ const Home = () => {
   const t = useTranslations("Header")
 
   return (
-    <div className="bg-gray-100 relative">
+    <div className="bg-white relative">
       <Navbar />
       <main className="relative px-4 sm:px-0 container mx-auto">
         {/* header dari halaman awal */}

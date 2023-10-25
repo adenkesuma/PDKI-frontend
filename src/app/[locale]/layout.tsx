@@ -52,7 +52,7 @@ export default async function RootLayout({
       <Head>
         <link rel='icon' href='./favicon.ico'/>
       </Head>
-      <body className={`${montserrat.className} bg-gray-100`}>
+      <body className={`${montserrat.className} container px-4 sm:px-0 lg:px-14 mx-auto`}>
         <NextAuthProvider>
           <NextIntlClientProvider locale={locale} messages={dir}>
             {children}
