@@ -18,7 +18,7 @@ const Conference = () => {
   const t = useTranslations("Conference")
 
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
       <main className="container px-4 sm:px-0 mx-auto">
         {/* header */}

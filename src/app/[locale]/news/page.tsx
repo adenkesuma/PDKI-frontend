@@ -18,7 +18,7 @@ const News = () => {
   const t = useTranslations("News")
 
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
       <main className="container px-4 sm:px-0 mx-auto">
         {/* header dari halaman berita */}
