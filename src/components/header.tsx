@@ -50,7 +50,7 @@ const Header = ({ heading, subheading } : HeaderProps) => {
 
     return (
         <>
-            <header className="xl:px-8">
+            <header>
                 <Navigation />
                 <figure className="relative">
                     <Image 

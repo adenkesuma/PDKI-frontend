@@ -20,7 +20,7 @@ const Navbar: FC = () => {
 
   return (
     <>
-      <nav className="py-4 px-4 sm:px-0 container mx-auto xl:px-8">
+      <nav className="py-3">
         <div className="flex justify-between items-center">
           <Link href="/" className="font-bold text-2xl md:text-4xl text-gray-800">PDKI</Link>
           <ul className="hidden sm:flex justify-center gap-0 md:gap-2 items-center">

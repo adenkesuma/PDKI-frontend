@@ -17,17 +17,17 @@ const Home = () => {
   return (
     <div className="bg-white relative">
       <Navbar />
-      <main className="relative px-4 sm:px-0 container mx-auto">
+      <main className="relative">
         {/* header dari halaman awal */}
         <Header heading="PDKI" subheading={t("1.description")} />
 
-        <section className="mt-8 grid grid-cols-1 gap-6 items-end md:grid-cols-3 px-6 xl:px-12">
+        <section className="mt-8 grid grid-cols-1 gap-6 items-end md:grid-cols-3">
           <TrendingVideo />
           <UpcomingConference />
           <TrendingNews />
         </section>
 
-        <section className="mt-8 mb-8 px-6 xl:px-12">
+        <section className="mt-8 mb-8">
           <Quote />
           <LatestConference />
           <LatestNews />

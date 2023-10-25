@@ -24,32 +24,30 @@ const UpcomingConferenceBox = ({
       <h2 className="font-semibold text-[18px] lg:text-[20px] mb-4">
         {t("title")}
       </h2>
-      <div key={data?.conference_id} className="flex rounded-2xl bg-[#274698] h-[380px] lg:h-[410px]">
-        <div className="overflow-hidden">
-          <div className="w-full h-[65%] sm:h-[70%] relative overflow-hidden rounded-tl-2xl rounded-tr-2xl">
+      <div key={data?.conference_id} className="flex flex-col rounded-2xl border border-gray-200 p-3 h-[380px] lg:h-[410px]">
+          <div className="w-full h-full overflow-hidden rounded-lg">
             <Image
               width={400}
               height={400}
-              className="hover:scale-110 duration-100 rounded-tl-2xl rounded-tr-2xl w-full h-full bg-cover object-cover"
+              className="hover:scale-110 duration-100 rounded-lg w-full h-full bg-cover object-cover"
               src={process.env.BASE_URL + data?.image}
               alt="conference image"
             />
-            <div className="absolute top-5 right-5 p-2 rounded-[50%] bg-[#fff] shadow-sm shadow-gray-600">
-              <Link href={`/conference/${data?.conference_id}`}>
-                <TbArrowUpRight className="w-[24px] h-[24px] text-[#274698]" />
-              </Link>
-            </div>
           </div>
-          <div className="py-3 px-6 text-white flex flex-col justify-between h-[35%] sm:h-[30%] overflow-hidden">
-            <div>
-              <h3 className="text-[16px] md:text-[18px] xl:text-[20px] font-semibold md:text-ellipsis md:overflow-hidden md:whitespace-nowrap lg:text-left lg:whitespace-normal">{data?.title}</h3>
-            </div>
+
+          <div className="py-4 flex flex-col justify-between h-[35%] sm:h-[30%] overflow-hidden">
+            <h3 className="text-sm md:text-xl text-gray-800 font-semibold line-clamp-2 lg:text-left">{data?.title}</h3>
             <div className="flex justify-between items-center gap-8">
-              <span className="w-[70%] text-[14px] overflow-hidden text-ellipsis whitespace-nowrap">{data?.location}</span>
-              <span className="w-[30%] text-[14px]">{`${date} - ${month} - ${year}`}</span>
+              <span className="w-[70%] text-gray-600 text-xs md:text-sm overflow-hidden text-ellipsis whitespace-nowrap">{data?.location}</span>
+              <span className="w-[30%] text-gray-600 text-xs md:text-sm">{`${date} - ${month} - ${year}`}</span>
             </div>
           </div>
-        </div>
+          <Link 
+            href={`/conference/${data?.conference_id}`} 
+            className="bg-[#274698] rounded-lg text-xs md:text-sm font-medium text-white py-2 text-center"
+          >
+            Detail
+          </Link> 
       </div>
     </div>
   )
