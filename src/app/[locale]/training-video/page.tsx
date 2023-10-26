@@ -74,28 +74,28 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
               <p className="font-medium text-[16px] mb-4">{vid?.description}</p>
               <p className="font-medium mb-4 text-[16px]">Instruktor : {vid?.instructor}</p>
               {vid?.is_private === 1 ?
-                <div className="bg-orange-200 rounded-2xl p-4 flex flex-col space-y-1">
-                  <p className="p-2 rounded-xl font-medium text-center text-[16px] text-orange-700">Premium Video</p>
-                  <p className="text-[14px] text-center font-medium text-orange-700">
+                <div className="bg-orange-100 rounded-2xl p-4 flex flex-col space-y-1">
+                  <p className="p-2 rounded-xl font-medium text-center text-sm text-orange-800">Premium Video</p>
+                  <p className="text-xs text-center font-regular text-orange-600">
                     Kamu harus melakukan pembayaran untuk mengakses video pelatihan ini, tekan tombol hubungi admin untuk info lebih lanjut terkait pembayaran
                   </p>
                   <div className="w-full flex gap-6">
                     <input
-                      className="w-9/12 p-2 rounded-xl placeholder:text-center placeholder:font-semibold"
+                      className="w-9/12 p-2 rounded-xl"
                       type="text"
                       placeholder="Masukkan Token"
                       onChange={(e) => setToken(e.target.value)}
                     />
                     <button
                       onClick={() => submitToken(vid?._id)}
-                      className="bg-gray-100 hover:bg-gray-500 rounded-xl p-1 font-semibold text-[#1a1a1a] hover">
+                      className="bg-orange-600 rounded-xl p-1 font-semibold text-sm text-white">
                       Masukkan Token
                     </button>
                   </div>
                 </div> :
-                <div className="bg-green-200 rounded-2xl p-4">
-                  <p className="p-2 rounded-xl font-medium text-center text-[16px] text-green-700">Gratis</p>
-                  <p className="text-[14px] text-center font-medium text-green-700">
+                <div className="bg-green-100 rounded-2xl p-4">
+                  <p className="p-2 rounded-xl font-medium text-center text-sm text-green-700">Gratis</p>
+                  <p className="text-xs text-center font-regular text-green-700">
                     Video pelatihan ini gratis, kamu bisa langsung akses video dengan menekan tombol lihat pelatihan
                   </p>
                 </div>
