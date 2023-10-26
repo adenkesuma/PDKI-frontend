@@ -19,27 +19,27 @@ const About = () => {
   const t = useTranslations("About")
 
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
-      <main className="container px-4 sm:px-0 mx-auto">
+      <main>
         {/* header dari halaman tentang */}
         <Header heading="PDKI" subheading="Sejarah Perhimpunan Dokter Keluarga Indonesia" />
 
-        <section className="my-8 px-6 xl:px-12">
+        <section className="my-8">
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:gap-12">
-            <p className="text-[16px] font-medium text-[#333]">
+            <p className="text-sm font-regular text-gray-600">
               {t.rich("p1", {
                 span: (children) => (
-                  <span className="text-3xl font-bold text-[#274698]">
+                  <span className="text-2xl font-bold text-[#274698]">
                     {children}
                   </span>
                 ),
               })}
             </p>
-            <p className="text-[16px] font-medium text-[#333]">
+            <p className="text-sm font-regular text-gray-600">
               {t.rich("p2", {
                 span: (children) => (
-                  <span className="text-3xl font-bold text-[#274698]">
+                  <span className="text-2xl font-bold text-[#274698]">
                     {children}
                   </span>
                 ),
@@ -48,7 +48,7 @@ const About = () => {
           </div>
 
           <div className="flex justify-between flex-col items-start gap-12 mt-8">
-            <h2 className="text-[30px] font-bold text-[#1a1a1a]">
+            <h2 className="text-2xl font-bold text-[#1a1a1a]">
               {t.rich("h-founder", {
                 span: (children) => (
                   <span className="text-[#274698]">{children}</span>
@@ -61,14 +61,14 @@ const About = () => {
                   {studyGroup.map((people, idx) => (
                     <li
                       key={idx}
-                      className="font-medium text-[#fff] px-4 text-center py-4 bg-[#274698] rounded-2xl"
+                      className="font-medium text-[#fff] text-sm px-4 text-center py-3 bg-[#274698] rounded-xl"
                     >
                       {people}
                     </li>
                   ))}
                 </ul>
               </div>
-              <p className="font-medium text-[#333]">
+              <p className="font-regular text-sm text-gray-600">
                 {t.rich("p-founder", {
                   //@ts-ignore
                   br: <br />,
@@ -78,7 +78,7 @@ const About = () => {
           </div>
 
           <div className="flex justify-between flex-col gap-12 mt-8">
-            <h2 className="text-[30px] font-bold text-[#1a1a1a]">
+            <h2 className="text-2xl font-bold text-gray-800">
               {t.rich("metamorphosis.h", {
                 span: (children) => (
                   <span className="text-[#329E93]">{children}</span>
@@ -91,11 +91,11 @@ const About = () => {
               alt="metahorfosis PDKI siklus"
             />
             <div>
-              <p className="font-medium text-[#333] text-[16px]">
+              <p className="font-regular text-gray-600 text-sm">
                 {t.rich("metamorphosis.p1")}
               </p>
               <br />
-              <p className="font-medium text-[#333] text-[16px]">
+              <p className="font-regular text-gray-600 text-sm">
                 {t.rich("metamorphosis.p2", {
                   //@ts-ignore
                   br: <br />,
@@ -105,7 +105,7 @@ const About = () => {
           </div>
 
           <div className="mt-8 flex flex-col gap-8">
-            <h2 className="font-bold text-[30px] text-[#1a1a1a]">
+            <h2 className="font-bold text-2xl text-gray-800">
               {t.rich("association-chairman.h")}
             </h2>
             <Image
@@ -113,7 +113,7 @@ const About = () => {
               src={PDKILeader}
               alt="PDKI Leader image"
             />
-            <p>
+            <p className="text-sm font-regular text-gray-600">
               {t.rich("association-chairman.p", {
                 //@ts-ignore
                 br: <br />,
