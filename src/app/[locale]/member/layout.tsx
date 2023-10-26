@@ -19,10 +19,10 @@ export default function MemberLayout({
   const t = useTranslations("Member")
 
   return (
-    <div className='bg-gray-100'>
+    <div>
       <NextAuthProvider>
         <Navbar />
-        <main className="container px-4 sm:px-0 mx-auto">
+        <main>
           {/* header */}
           <Header heading="PDKI" subheading={t("description")} />
 

@@ -20,7 +20,7 @@ const News = () => {
   return (
     <div>
       <Navbar />
-      <main className="container px-4 sm:px-0 mx-auto">
+      <main>
         {/* header dari halaman berita */}
         <Header heading="PDKI" subheading={t("description")} />
 

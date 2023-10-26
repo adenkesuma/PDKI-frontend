@@ -21,9 +21,9 @@ const CardMember: FC<CardMemberProps> = ({
             <div
                 id={npa_pdki}
                 key={npa_pdki}
-                className='bg-[#fff] shadow-md shadow-gray-300 p-4 rounded-2xl flex flex-col gap-6'
+                className='bg-[#fff] border border-gray-200 p-6 rounded-xl flex flex-col items-center gap-6'
             >
-                <figure className='w-[150px] h-[150px] mx-auto mt-4'>
+                <div className="flex gap-6 items-center">
                     <Image
                         className="w-[150px] h-[150px] object-cover rounded-[50%]"
                         src={process.env.BASE_URL + pas_foto}
@@ -31,11 +31,13 @@ const CardMember: FC<CardMemberProps> = ({
                         width={300}
                         height={300}
                     />
-                </figure>
-                <div className='mt-4'>
-                    <p className='mb-2 font-medium text-[16px] text-center'>Nama: {nama}</p>
                     <QRCode value={`${url}#${npa_pdki}`} />
                 </div>
+
+                <p className='mb-2 font-medium text-center text-sm text-gray-600'>
+                    <span className="text-gray-800 font-bold">Nama: </span>
+                    {nama}
+                </p>
             </div>
         </>
     )
