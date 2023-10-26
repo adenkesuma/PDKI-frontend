@@ -1,5 +1,5 @@
 'use client'
-import { Metadata } from "next"
+
 import Header from "@/components/header.tsx"
 import Navbar from "@/components/navbar.tsx"
 import Footer from "@/components/footer.tsx"
@@ -11,12 +11,6 @@ import { VideoProps } from "@/utils/interface.ts"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-
-// metadata for traning video page
-// export const metadata: Metadata = {
-//   title: 'PDKI | Video',
-//   description: 'PDKI training video',
-// }
 
 const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
   const t = useTranslations("TrainingVideos")
