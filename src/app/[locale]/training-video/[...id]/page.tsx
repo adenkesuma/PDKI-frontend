@@ -57,13 +57,13 @@ const TrainingVideoId = ({
     return (
         <div>
             <Navbar />
-            <div className="px-8 container xl:px-12 mx-auto">
+            <div>
                 <Link href="/training-video" className="flex gap-6 flex-row items-start">
                     <VscArrowLeft className="text-[24px] font-semibold" />
                     <p className="font-medium text-[16px]">Kembali</p>
                 </Link>
             </div>
-            <div className="px-8 container mx-auto mt-8 mb-8 xl:px-12 flex flex-col lg:flex-row justify-between items-start gap-12">
+            <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
                 <div className="w-full lg:w-[60%]">
                     <VideoPlayer
                         video_url={videoDetail.video_url ? videoDetail?.video_url : ""}

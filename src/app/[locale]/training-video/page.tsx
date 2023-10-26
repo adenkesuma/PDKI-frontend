@@ -54,7 +54,7 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
                 <Image
                   width={500}
                   height={400}
-                  className="w-full h-full rounded-xl"
+                  className="w-full h-full rounded-lg"
                   src={vid?.thumbnail_ulr}
                   alt={vid?.title}
                 />
@@ -79,7 +79,7 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
                   <p className="text-xs text-center font-regular text-orange-600">
                     Kamu harus melakukan pembayaran untuk mengakses video pelatihan ini, tekan tombol hubungi admin untuk info lebih lanjut terkait pembayaran
                   </p>
-                  <div className="mt-4 w-full flex gap-4">
+                  <div className="pt-6 w-full flex gap-4">
                     <input
                       className="w-9/12 p-2 rounded-xl text-sm"
                       type="text"
