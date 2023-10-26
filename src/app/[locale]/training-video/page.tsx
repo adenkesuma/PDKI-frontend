@@ -45,11 +45,11 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
       <Header heading="PDKI" subheading={t("description")} />
 
       <section className="my-12">
-        <h2 className="font-semibold text-2xl mb-4">{t("content.h")}</h2>
+        <h2 className="font-semibold text-xl lg:text-2xl mb-4">{t("content.h")}</h2>
 
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           {videoData?.map((vid: VideoProps) => (
-            <div key={vid?._id}>
+            <div key={vid?._id} className="p-3 rounded-xl border border-gray-200">
               <div className="w-full relative">
                 <Image
                   width={500}
@@ -75,20 +75,20 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
               <p className="font-medium mb-4 text-[16px]">Instruktor : {vid?.instructor}</p>
               {vid?.is_private === 1 ?
                 <div className="bg-orange-100 rounded-2xl p-4 flex flex-col space-y-1">
-                  <p className="p-2 rounded-xl font-medium text-center text-sm text-orange-800">Premium Video</p>
+                  <p className="mb-2 rounded-xl font-medium text-center text-sm text-orange-600">Premium Video</p>
                   <p className="text-xs text-center font-regular text-orange-600">
                     Kamu harus melakukan pembayaran untuk mengakses video pelatihan ini, tekan tombol hubungi admin untuk info lebih lanjut terkait pembayaran
                   </p>
-                  <div className="w-full flex gap-6">
+                  <div className="mt-4 w-full flex gap-4">
                     <input
-                      className="w-9/12 p-2 rounded-xl"
+                      className="w-9/12 p-2 rounded-xl text-sm"
                       type="text"
                       placeholder="Masukkan Token"
                       onChange={(e) => setToken(e.target.value)}
                     />
                     <button
                       onClick={() => submitToken(vid?._id)}
-                      className="bg-orange-600 rounded-xl p-1 font-semibold text-sm text-white">
+                      className="bg-orange-600 rounded-xl px-3 py-1 font-semibold text-xs text-white">
                       Masukkan Token
                     </button>
                   </div>

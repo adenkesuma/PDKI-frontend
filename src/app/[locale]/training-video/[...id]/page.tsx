@@ -55,7 +55,7 @@ const TrainingVideoId = ({
 
 
     return (
-        <div className="bg-gray-100">
+        <div>
             <Navbar />
             <div className="px-8 container xl:px-12 mx-auto">
                 <Link href="/training-video" className="flex gap-6 flex-row items-start">
@@ -70,11 +70,11 @@ const TrainingVideoId = ({
                         thumbnail_ulr={videoDetail?.thumbnail_ulr}
                         online={videoDetail?.online}
                     />
-                    <h2 className="font-semibold md:text-[20px] lg:text-[25px] xl:text-[30px] mb-6">{videoDetail?.title}</h2>
-                    <div className="mt-6 flex justify-between items-center gap-8 mx-12 pb-6 border-b border-[#666]">
-                        <p>{videoDetail?.instructor}</p>
+                    <h2 className="font-semibold text-xl lg:text-2xl mt-4 mb-6">{videoDetail?.title}</h2>
+                    <div className="mt-6 flex justify-between items-center gap-8 mx-12 pb-6 border-b border-gray-300">
+                        <p className="text-sm text-gray-600 font-semibold">{videoDetail?.instructor}</p>
                     </div>
-                    <p className="mx-12 text-[16px] my-6">{videoDetail?.description}</p>
+                    <p className="mx-12 text-sm my-6">{videoDetail?.description}</p>
                 </div>
                 <div className="w-full lg:w-[40%]">
                     <TrendingVideo />
