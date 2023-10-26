@@ -19,9 +19,9 @@ const PDKIRegions = () => {
   const t = useTranslations("Branch") 
 
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
-      <main className="container px-4 sm:px-0 mx-auto">
+      <main>
         {/* header dari halaman wilayah pdki */}
         <Header heading="PDKI" subheading={t("description")} />
  
