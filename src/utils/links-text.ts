@@ -75,24 +75,34 @@ export const navigation = [
   },
   {
     id: 6,
-    text: "P2kb",
-    link: "/p2kb"
+    text: "Daftar Anggota",
+    link: "/register-member"
   },
   {
     id: 7,
+    text: "P2kb",
+    link: "https://l2-kb-lms.vercel.app/"
+  },
+  {
+    id: 8,
     text: "Pengabdian Masyarakat",
     link: "/dedication"
   }, 
   {
-    id: 8,
+    id: 9,
     text: "Cabang",
     link: "/pdki-regions"
   },
   {
-    id: 9,
-    text: `Video`,
+    id: 10,
+    text: "Video",
     link: "/training-video"
   },
+  {
+    id: 11,
+    text: "Koperasi",
+    link: "https://www.koperasipdki.com/login"
+  }
 ]
 
 export const sidebarLinks = [

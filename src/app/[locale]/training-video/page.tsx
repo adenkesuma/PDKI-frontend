@@ -40,12 +40,12 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
   }
 
   return (
-    <main className="container px-4 sm:px-0 mx-auto">
+    <main>
       {/* header dari halaman video pelatihan */}
       <Header heading="PDKI" subheading={t("description")} />
 
-      <section className="my-12 px-4 lg:px-6 xl:px-12">
-        <h2 className="font-semibold text-[30px] mb-4">{t("content.h")}</h2>
+      <section className="my-12">
+        <h2 className="font-semibold text-2xl mb-4">{t("content.h")}</h2>
 
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           {videoData?.map((vid: VideoProps) => (

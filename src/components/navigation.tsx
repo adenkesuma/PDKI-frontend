@@ -11,7 +11,7 @@ const Navigation: FC = () => {
       <ul className="flex items-center sm:justify-center gap-6 lg:gap-8 xl:gap-10 snap overflow-scroll sm:overflow-auto ">
         {navigation.map((nav) => (
           <li key={nav.id}>
-            <Link href={nav.link} className="md:text-sm text-xs text-white font-medium">
+            <Link href={nav.link} className="md:text-sm text-xs text-white hover:underline delay-100 font-medium">
               {t(nav.id.toString() as any)}
             </Link>
           </li>
