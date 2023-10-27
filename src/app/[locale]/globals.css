@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #ffffff;
+}
+
 :root {
   --blue: rgba(0,0,255,0.5);
   --thumb: eaeaea;

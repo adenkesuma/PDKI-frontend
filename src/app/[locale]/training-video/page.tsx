@@ -40,7 +40,7 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
   }
 
   return (
-    <main>
+    <main className="bg-white">
       {/* header dari halaman video pelatihan */}
       <Header heading="PDKI" subheading={t("description")} />
 
