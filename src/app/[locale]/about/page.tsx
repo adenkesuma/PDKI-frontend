@@ -23,7 +23,7 @@ const About = () => {
       <Navbar />
       <main>
         {/* header dari halaman tentang */}
-        <Header heading="PDKI" subheading="Sejarah Perhimpunan Dokter Keluarga Indonesia" />
+        <Header />
 
         <section className="my-8">
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:gap-12">

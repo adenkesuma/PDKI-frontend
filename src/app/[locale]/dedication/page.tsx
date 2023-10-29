@@ -20,7 +20,7 @@ const Dedication = () => {
       <Navbar />
       <main>
         {/* header dari halaman catatan  */}
-        <Header heading="PDKI" subheading={t("description")} /> 
+        <Header /> 
 
         <section>
           <h1 className="text-center text-lg font-semibold my-20">still process</h1>

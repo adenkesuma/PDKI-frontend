@@ -22,7 +22,7 @@ const Conference = () => {
       <Navbar />
       <main>
         {/* header */}
-        <Header heading="PDKI" subheading={t("description")} />
+        <Header />
 
         {/* conference */}
         <ConferenceResults />

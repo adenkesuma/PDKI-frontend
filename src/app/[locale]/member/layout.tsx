@@ -24,7 +24,7 @@ export default function MemberLayout({
         <Navbar />
         <main>
           {/* header */}
-          <Header heading="PDKI" subheading={t("description")} />
+          <Header />
 
           {/* children */}
           <div>

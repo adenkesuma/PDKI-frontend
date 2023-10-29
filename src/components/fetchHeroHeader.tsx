@@ -41,11 +41,12 @@ const FetchHeroHeader = ({ topNews }: { topNews: NewsProps[] }) => {
                     {topNews.map((item: NewsProps, index) => (
                         <Link key={item.id} href={`/news/${item.id}`}>
                             <Image 
-                                className={`w-full h-full bg-cover rounded-br-xl rounded-bl-xl object-cover absolute z-0 transition-opacity ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
+                                className={`w-full h-full bg-cover bg-center object-cover rounded-br-xl rounded-bl-xl absolute z-0 transition-opacity ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
                                 src={process.env.BASE_URL + item.image}
                                 alt={item.title}
-                                width={100}
-                                height={100}
+                                quality={100}
+                                width={1000}
+                                height={1000}
                             />
                         </Link>
                     ))}

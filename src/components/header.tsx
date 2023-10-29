@@ -157,13 +157,11 @@ import FetchHeroHeader from "./fetchHeroHeader"
 
 const Header = async () => {
     const getTrendingNews = await fetchNews()
-    
-    const sortedNews = await getTrendingNews.sort(
-        (a: { views: number }, b: { views: number }) => b.views - a.views
-        )
-        
-        const topNews: [] = await sortedNews.slice(0, 5)
 
+    const sortedNews = await getTrendingNews.sort((a: { views: number }, b: { views: number }) => b.views - a.views)
+        
+    const topNews: [] = await sortedNews.slice(0, 3)
+    
     return (
         <>
           <FetchHeroHeader topNews={topNews}/>

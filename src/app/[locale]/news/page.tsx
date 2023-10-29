@@ -22,7 +22,7 @@ const News = () => {
       <Navbar />
       <main>
         {/* header dari halaman berita */}
-        <Header heading="PDKI" subheading={t("description")} />
+        <Header />
 
         {/* news data */}
         <NewsResults /> 
