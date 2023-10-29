@@ -10,9 +10,9 @@ export const metadata = {
 
 const CookieNotice = () => {
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
-      <div className="px-8 xl:px-12 container mx-auto mt-8 mb-8 flex flex-col gap-6">
+      <div className="mt-8 mb-8 flex flex-col gap-6">
         {/* back navigate */}
         <Link href="/" className="flex gap-6 flex-row items-start">
           <VscArrowLeft className="text-[24px] font-semibold mb-6" />

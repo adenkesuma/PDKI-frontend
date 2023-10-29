@@ -48,7 +48,7 @@ const NewsId = ({
     const t = useTranslations("News-detail")
 
     return (
-        <div className="bg-gray-100">
+        <div>
             <Navbar />
             <div className="px-8 xl:px-12 container mx-auto mt-8">
                 <Link href="/news" className="flex gap-6 flex-row items-start">

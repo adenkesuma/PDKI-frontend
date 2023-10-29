@@ -53,7 +53,7 @@ const ConferenceId = ({
     const t = useTranslations("Conference-detail")
 
     return (
-        <div className="bg-gray-100">
+        <div>
             <Navbar />
             <div className="px-8 container mx-auto mt-8 xl:px-12">
                 <Link href="/conference" className="flex gap-6 flex-row items-start">

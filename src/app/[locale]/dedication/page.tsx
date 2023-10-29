@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 const Dedication = () => {
   const t = useTranslations("Dedication")
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
-      <main className="container px-4 sm:px-0 mx-auto">
+      <main>
         {/* header dari halaman catatan  */}
         <Header heading="PDKI" subheading={t("description")} /> 
 
