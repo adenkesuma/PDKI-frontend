@@ -19,7 +19,8 @@ const Home = () => {
       <Navbar />
       <main className="relative">
         {/* header dari halaman awal */}
-        <Header heading="PDKI" subheading={t("1.description")} />
+        {/* <Header heading="PDKI" subheading={t("1.description")} /> */}
+        <Header />
 
         <section className="mt-8 grid grid-cols-1 gap-6 items-end md:grid-cols-3">
           <TrendingVideo />

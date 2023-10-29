@@ -1,58 +1,133 @@
-"use client"
-import { useEffect, useState } from "react"
-import Navigation from "./navigation"
-import Image from "next/image"
-import Banner from "@/../public/assets/images/image-banner.jpg"
-import GetConnection from "./get-connection"
-import { HeaderProps } from "@/utils/interface"
-import { useTranslations } from "next-intl"
-import { usePathname } from "next/navigation"
+// "use client"
 
-const Header = ({ heading, subheading } : HeaderProps) => {
-    const t = useTranslations("Header");
-    const [show, setShow] = useState<boolean>(false)
+// import { NewsProps } from "@/utils/interface"
+import { fetchNews } from "@/lib/fetch/get-news"
+import FetchHeroHeader from "./fetchHeroHeader"
+// import { useEffect, useState } from "react"
+// import Navigation from "./navigation"
+// import Image from "next/image"
+// import Banner from "@/../public/assets/images/image-banner.jpg"
+// import GetConnection from "./get-connection"
+// import { HeaderProps } from "@/utils/interface"
+// import { useTranslations } from "next-intl"
+// import { usePathname } from "next/navigation"
+// import Link from "next/link"
+
+// const Header = ({ heading, subheading } : HeaderProps) => {
+    // const t = useTranslations("Header");
+    // const [show, setShow] = useState<boolean>(false)
+
+    // const handleConnection = () => {
+    //     setShow(!show)
+    // } 
 
     // useEffect(() => {
-    //     const isPopupClosed = localStorage.getItem('isPopupClosed')
+    //     const isPopupClosed = localStorage.getItem('isPopupClosed');
 
     //     if (!isPopupClosed) {
-    //         setShow(true)
-    //         localStorage.setItem('isPopupClosed', 'true')
+    //         setShow(true);
+    //         localStorage.setItem('isPopupClosed', 'true');
     //     }
-    //     // setShow(true)
-    // }, [])
 
-    const handleConnection = () => {
-        setShow(!show)
-    } 
+    //     // Cleanup function to reset show state when navigating away
+    //     const handleRouteChange = () => {
+    //         setShow(false);
+    //     };
 
-    useEffect(() => {
-        const isPopupClosed = localStorage.getItem('isPopupClosed');
+    //     // Add event listener to handle route changes
+    //     window.addEventListener('beforeunload', handleRouteChange);
 
-        if (!isPopupClosed) {
-            setShow(true);
-            localStorage.setItem('isPopupClosed', 'true');
-        }
+    //     // Remove the event listener when the component unmounts
+    //     return () => {
+    //         window.removeEventListener('beforeunload', handleRouteChange);
+    //     };
 
-        // Cleanup function to reset show state when navigating away
-        const handleRouteChange = () => {
-            setShow(false);
-        };
+    // }, []);
 
-        // Add event listener to handle route changes
-        window.addEventListener('beforeunload', handleRouteChange);
+// const FetchNewsHeader = ({ topNews }: { topNews: NewsProps[] }) => {
+//     const [currentIndex, setCurrentIndex] = useState(0)
 
-        // Remove the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('beforeunload', handleRouteChange);
-        };
-    }, []);
+//     return (
+//         <>
+//             <header className="mt-4 sm:mt-6">
+//                 <Navigation />
 
-    return (
-        <>
-            <header>
-                <Navigation />
-                <figure className="relative">
+//                 <div className="relative h-52 lg:h-[80vh]">
+//                   {/* {data.map((item, index) => (
+//                     <Link href={`/courses/${item.id}`} key={item.id}>
+//                       <Image
+//                         src={`${process.env.NEXT_PUBLIC_P2KB_API}/img/training_cover/${item?.id}.webp`}
+//                         alt="thumnail pelatihan image"
+//                         className={`rounded-xl h-full w-full bg-cover object-cover absolute z-0 transition-opacity duration-300 ${
+//                           index === currentIndex ? "opacity-100" : "opacity-0"
+//                         }`}
+//                         width={2000}
+//                         height={100}
+//                       />
+//                     </Link>
+//                   ))} */}
+
+//                     {topNews.map((item: NewsProps, index) => (
+//                         <Link key={item.id} href={`/news/${item.id}`}>
+//                             <Image 
+//                                 className={`w-full h-[80%] bg-cover object-cover absolute z-0 transition-opacity ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
+//                                 src={process.env.BASE_URL + item.image}
+//                                 alt={item.title}
+//                                 width={100}
+//                                 height={100}
+//                             />
+//                         </Link>
+//                     ))}
+
+//                     <button
+//                       className="absolute top-1/2 transform -translate-y-1/2 left-4 bg-white px-2 py-[5px] md:px-4 md:py-[11px] rounded-full shadow-lg cursor-pointer"
+//                       onClick={handlePrev}
+//                     >
+//                       <Image
+//                         src={Arrow}
+//                         alt="arrow left"
+//                         className="w-2 sm:w-3 rotate-180"
+//                       />
+//                     </button>
+//                     <button
+//                       className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-white px-2 py-[5px] md:px-4 md:py-[11px] rounded-full shadow-lg cursor-pointer"
+//                       onClick={handleNext}
+//                     >
+//                       <Image src={Arrow} alt="arrow right" className="w-2 sm:w-3" />
+//                     </button>
+//                 </div>
+                    
+//                 <div className="flex justify-center mt-4">
+//                   {data.map((item, index) => (
+//                     <span
+//                       key={item.id}
+//                       className={`w-2 h-2 mx-1 rounded-full bg-gray-400 ${
+//                         index === currentIndex ? "bg-gray-700" : ""
+//                       }`}
+//                     />
+//                   ))}
+//                 </div>
+//             </header>            
+
+            {/* <header> */}
+                {/* <Navigation /> */}
+
+                {/* {topNews.map((item: NewsProps) => (
+                    <Link key={item.id} href={`/news/${item.id}`}>
+                        <Image 
+                            className="w-full h-[80%]"
+                            src={process.env.BASE_URL + item.image}
+                            alt={item.title}
+                            width={100}
+                            height={100}
+                        />
+                        
+                    </Link>
+                ))} */}
+                
+
+
+                {/* <figure className="relative">
                     <Image 
                         className="w-full h-[600px] object-cover bg-cover rounded-br-xl rounded-bl-xl"
                         src={Banner}
@@ -72,9 +147,26 @@ const Header = ({ heading, subheading } : HeaderProps) => {
                            {t("button")}
                         </button>
                     </div>
-                </figure> 
-            </header> 
-            {show && <GetConnection setShow={setShow} handleConnection={handleConnection}/>}
+                </figure>  */}
+            {/* </header>  */}
+            {/* {show && <GetConnection setShow={setShow} handleConnection={handleConnection}/>} */}
+//         </>
+//     )
+// }
+
+
+const Header = async () => {
+    const getTrendingNews = await fetchNews()
+    
+    const sortedNews = await getTrendingNews.sort(
+        (a: { views: number }, b: { views: number }) => b.views - a.views
+        )
+        
+        const topNews: [] = await sortedNews.slice(0, 5)
+
+    return (
+        <>
+          <FetchHeroHeader topNews={topNews}/>
         </>
     )
 }
