@@ -23,7 +23,7 @@ const PDKIRegions = () => {
       <Navbar />
       <main>
         {/* header dari halaman wilayah pdki */}
-        <Header heading="PDKI" subheading={t("description")} />
+        <Header />
  
         {/* region data */}
         <RegionResults />
