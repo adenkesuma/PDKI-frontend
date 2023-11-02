@@ -160,7 +160,7 @@ const Header = async () => {
 
     const sortedNews = await getTrendingNews.sort((a: { views: number }, b: { views: number }) => b.views - a.views)
         
-    const topNews: [] = await sortedNews.slice(0, 3)
+    const topNews: [] = await sortedNews.slice(0, 5)
     
     return (
         <>

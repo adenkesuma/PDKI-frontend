@@ -26,6 +26,7 @@
     "eslint-config-next": "^13.4.5",
     "format": "^0.2.2",
     "jsbarcode": "^3.11.5",
+    "moment": "^2.29.4",
     "next": "^13.4.5",
     "next-auth": "^4.22.1",
     "next-intl": "^3.0.0-beta.8",

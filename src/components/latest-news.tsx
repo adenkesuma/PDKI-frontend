@@ -41,11 +41,11 @@ const LatestNewsBox = ({ fourLatestNews }: { fourLatestNews: any }) => {
             <div className="flex flex-col justify-between">
               <div>
                 <h4 className="text-gray-800 font-semibold text-[16px] text-ellipsis overflow-hidden whitespace-nowrap">{item.title}</h4>
-                <p className="text-gray-600 text-[14px] font-medium line-clamp-2 mt-1 text-sm">{item.description}</p>
+                <p className="text-gray-600 text-xs font-medium line-clamp-2 mt-1">{item.description}</p>
               </div>
               <div className="mt-4 flex justify-between items-center gap-8">
-                <span className="text-sm text-gray-600 font-medium whitespace-nowrap text-normal overflow-hidden w-1/2">{item.region}</span>
-                <span className="text-sm text-gray-600 font-medium whitespace-nowrap text-normal overflow-hidden w-1/2 text-end">{item.tags}</span>
+                <span className="text-xs text-gray-600 font-semibold whitespace-nowrap text-normal overflow-hidden text-end">{item.tags}</span>
+                <span className="text-xs text-gray-600 font-semibold whitespace-nowrap text-normal overflow-hidden">{item.region}</span>
               </div>
             </div>
 

@@ -9,6 +9,7 @@ import Navbar from "../../components/navbar"
 import Footer from "../../components/footer"
 import Whathsapp from "@/components/whatshapp.tsx"
 import { useTranslations } from "next-intl"
+import LatestCourses from "@/components/latest-course"
 
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
           <Quote />
           <LatestConference />
           <LatestNews />
+          <LatestCourses />
         </section>
       </main>
       <Footer />

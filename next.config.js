@@ -6,6 +6,7 @@ const withNextIntl = require("next-intl/plugin")(
 const nextConfig = {
     images: {
         domains: [
+            'https://api.pdkindonesia.com/',
             'www.woncaaprc2022.org',
             'www.globalfamilydoctor.com',
             'pdkijateng.org',
@@ -19,8 +20,16 @@ const nextConfig = {
             'https://images.unsplash.com',
             'https://unsplash.com',
             'api.pdkiserver.site',
-            'https://www.youtube.com'
-        ]
+            'https://www.youtube.com',
+        ],
+        remotePatterns: [
+            {
+              protocol: "https",
+              hostname: "api.pdkindonesia.com",
+              port: "",
+              pathname: "/**",
+            },
+        ],
     },
     env: {
         BASE_URL: process.env.BASE_URL,
