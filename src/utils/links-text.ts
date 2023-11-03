@@ -47,69 +47,6 @@ export const termsConditionsFooter = [
   }
 ]
 
-export const navigation = [
-  {
-    id: 1,
-    text: "PDKI",
-    link: "/"
-  },
-  {
-    id: 2,
-    text: "Tentang",
-    link: "/about"
-  },
-  {
-    id: 3,
-    text: "Fasilitas",
-    link: "/facilities"
-  },
-  {
-    id: 4,
-    text: "Berita",
-    link: "/news"
-  },
-  {
-    id: 5,
-    text: "Konferensi",
-    link: "/conference"
-  },
-  {
-    id: 6,
-    text: "Anggota",
-    link: "/member/copc"
-  },
-  {
-    id: 7,
-    text: "Daftar Anggota",
-    link: "/register-member"
-  },
-  {
-    id: 8,
-    text: "P2kb",
-    link: "https://l2-kb-lms.vercel.app/"
-  },
-  {
-    id: 9,
-    text: "Pengabdian Masyarakat",
-    link: "/dedication"
-  }, 
-  {
-    id: 10,
-    text: "Cabang",
-    link: "/pdki-regions"
-  },
-  {
-    id: 11,
-    text: "Video",
-    link: "/training-video"
-  },
-  {
-    id: 12,
-    text: "Koperasi",
-    link: "https://www.koperasipdki.com/login"
-  }
-]
-
 export const sidebarLinks = [
   {
     id: 1,
