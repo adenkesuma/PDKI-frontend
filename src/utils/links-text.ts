@@ -60,46 +60,51 @@ export const navigation = [
   },
   {
     id: 3,
+    text: "Fasilitas",
+    link: "/facilities"
+  },
+  {
+    id: 4,
     text: "Berita",
     link: "/news"
   },
   {
-    id: 4,
+    id: 5,
     text: "Konferensi",
     link: "/conference"
   },
   {
-    id: 5,
+    id: 6,
     text: "Anggota",
     link: "/member/copc"
   },
   {
-    id: 6,
+    id: 7,
     text: "Daftar Anggota",
     link: "/register-member"
   },
   {
-    id: 7,
+    id: 8,
     text: "P2kb",
     link: "https://l2-kb-lms.vercel.app/"
   },
   {
-    id: 8,
+    id: 9,
     text: "Pengabdian Masyarakat",
     link: "/dedication"
   }, 
   {
-    id: 9,
+    id: 10,
     text: "Cabang",
     link: "/pdki-regions"
   },
   {
-    id: 10,
+    id: 11,
     text: "Video",
     link: "/training-video"
   },
   {
-    id: 11,
+    id: 12,
     text: "Koperasi",
     link: "https://www.koperasipdki.com/login"
   }
