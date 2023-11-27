@@ -13,6 +13,7 @@ export interface ITrainingData {
   catatan: string;
   id: string;
   nama: string;
+  member: string;
   deskripsi: string;
   quota: number;
   tahun_pelaksanaan: number;
@@ -56,15 +57,15 @@ const CardCourse: FC<{
           onError={() => setImg("/assets/images/default-image-course.jpg")}
         />
       </figure>
-      <div className="p-1 text-center rounded-md border-gray-300 border-[1.4px] text-[10px] sm:text-xs font-medium text-[#274684] w-full sm:w-[150px] mt-4">
-        <span>Khusus Anggota Muda</span>
+      <div className="p-1 text-center rounded-md border-gray-300 border-[1.4px] text-[10px] sm:text-xs font-medium text-[#274684] w-full mt-4">
+        <span className="font-semibold">{data.member.split("_").join(" ")}</span>
       </div>
 
       <div className="flex justify-between flex-col gap-2">
         <h2 className="font-medium sm:font-semibold text-base sm:text-lg mt-4 line-clamp-1 leading-5 sm:leading-6">
           {data.nama}
         </h2>
-        <p className="font-regular text-gray-600 line-clamp-2 text-xs">
+        <p className="font-regular text-gray-600 line-clamp-1 text-xs">
           {data.deskripsi}
         </p>
 

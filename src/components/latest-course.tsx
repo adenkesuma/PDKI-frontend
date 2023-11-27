@@ -37,9 +37,9 @@ const LatestCourses = async () => {
   const fourLatestCourses = await getLatestCourses.slice(0, 4);
 
   return (
-    <>
+    <div>
       <LatestCoursesBox fourLatestCourses={fourLatestCourses} />
-    </>
+    </div>
   );
 };
 
