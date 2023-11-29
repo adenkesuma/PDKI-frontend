@@ -12,7 +12,7 @@ const NavbarAdmin = () => {
     const [selectedCategory, setSelectedCategory] = useState<string>(desiredValue)
 
     return (
-        <nav className='p-4 bg-gray-100 relative'>
+        <nav className='p-4 relative'>
             <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         </nav>
     )
