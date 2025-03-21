@@ -34,7 +34,7 @@ const News = () => {
 
   if (status === "authenticated") {
     return (
-      <div className="w-full inherit flex flex-col gap-2 relative pb-6">
+      <div className="container mx-auto w-full inherit flex flex-col gap-2 relative pb-6">
         {/* navigation for News data */}
         <nav className="sticky top-0 ml-[236px] right-[14px] flex justify-between items-center pb-6 pr-4 pt-6 z-[999]">
           <h3 className="font-semibold text-[30px] text-[#1a1a1a]">Berita</h3>

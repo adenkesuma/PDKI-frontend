@@ -30,7 +30,7 @@ const ConferenceResults = () => {
     const t = useTranslations("Conference")
 
     return (
-      <section className="my-12">
+      <section className="my-12 container mx-auto">
          <div className="flex flex-col gap-4 md:flex-row justify-between items-center">
            <h2 className="font-semibold text-2xl mb-4">{t("content.h")}</h2>
            <Search search={search} onSetSearch={onSetSearch} holder={t("content.search-placeholder")} />

@@ -19,7 +19,7 @@ const Navigation: FC = () => {
         <li className="shrink-0">
           <button onClick={() => setPdki(!pdki)} className="font-semibold text-white rounded-lg text-xs text-center inline-flex items-center" type="button">Tentang PDKI
             <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              <path stroke="currentColor" stroke-linecap="round" strokeLinejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
             </svg>
           </button>
 
@@ -50,7 +50,7 @@ const Navigation: FC = () => {
         <li className="shrink-0">
           <button onClick={() => setMember(!member)} className="font-semibold text-white rounded-lg text-xs text-center inline-flex items-center" type="button">Anggota PDKI
             <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              <path stroke="currentColor" stroke-linecap="round" strokeLinejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
             </svg>
           </button>
 
