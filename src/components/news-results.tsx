@@ -21,7 +21,6 @@ const NewsResults = () => {
       .catch((err) => {
         console.log(err)
       })
-    console.log(search);
   }, [search])
 
   const onSetSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {

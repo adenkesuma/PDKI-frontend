@@ -8,7 +8,7 @@ const Navigation: FC = () => {
   const [member, setMember] = useState<boolean>(false)
 
   return (
-    <nav className="relative container mx-auto rounded-tl-xl rounded-tr-xl bg-[#274698] py-4 px-4 sm:px-8 lg:px-12">
+    <nav className="relative bg-[#274698] py-4">
       <ul className="flex items-center sm:justify-center gap-6 lg:gap-8 xl:gap-12 snap overflow-scroll sm:overflow-auto">
         <li>
           <Link href="/" className="text-xs text-white font-semibold hover:underline delay-100">
@@ -24,7 +24,7 @@ const Navigation: FC = () => {
           </button>
 
           {pdki && (
-            <div className={`absolute left-[14%] top-12 p-3 flex flex-col gap-3 z-50 rounded-lg bg-[#274698] border border-gray-200`}>
+            <div className={`absolute top-12 p-3 flex flex-col gap-3 z-50 rounded-lg bg-[#274698] border border-gray-200`}>
               <Link href="/about" className="text-xs text-white font-semibold hover:bg-[rgba(255,255,255,0.2)] py-2 px-4 rounded-lg">
                 Tentang PDKI
               </Link>

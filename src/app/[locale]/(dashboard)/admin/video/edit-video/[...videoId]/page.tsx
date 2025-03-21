@@ -105,7 +105,6 @@ const EditVideo = ({
             ...prevState,
             [name]: value
         }))
-        console.log(videoData.online);
     }
 
     const redirectBack = () => {
