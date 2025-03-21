@@ -16,7 +16,7 @@ const RegionResults = () => {
 
     return (
         <>
-            <section className="mx-auto container mt-8 mb-8 flex items-end gap-4 flex-col md:flex-row md:justify-between">
+            <section className="px-6 lg:px-0 mx-auto container mt-8 mb-8 flex items-end gap-4 flex-col md:flex-row md:justify-between">
                 <h2 className="font-semibold text-2xl mb-6 text-gray-800">{t("content.h")}</h2>
 
                 <div className="flex flex-col items-start gap-3">

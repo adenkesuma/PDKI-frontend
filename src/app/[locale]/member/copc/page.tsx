@@ -21,7 +21,7 @@ const MemberCopc = async () => {
     })
 
     return (
-        <div className='my-12 container mx-auto'>
+        <div className='px-6 lg:px-0 my-12 container mx-auto'>
             <h3 className='text-gray-800 text-xl mb-4 font-semibold'>Member Community Oriented Primary Care</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>

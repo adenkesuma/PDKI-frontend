@@ -55,7 +55,7 @@ const ConferenceId = ({
     return (
         <div>
             <Navbar />
-            <div className="px-8 container mx-auto mt-8 xl:px-12">
+            <div className="px-6 lg:px-0 container mx-auto mt-8">
                 <Link href="/conference" className="flex gap-6 flex-row items-start">
                     <VscArrowLeft className="text-[24px] font-semibold mb-6" />
                     <p className="font-medium text-[16px]">{t("text-back")}</p>

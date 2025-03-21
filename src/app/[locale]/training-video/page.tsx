@@ -44,7 +44,7 @@ const TrainingVideoContainer = ({ videoData }: { videoData: VideoProps[] }) => {
       {/* header dari halaman video pelatihan */}
       <Header />
 
-      <section className="my-12">
+      <section className="px-6 lg:px-0 mx-auto container my-12">
         <h2 className="font-semibold text-xl lg:text-2xl mb-4">{t("content.h")}</h2>
 
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">

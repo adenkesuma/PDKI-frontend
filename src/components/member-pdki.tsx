@@ -16,7 +16,7 @@ const MemberPdki = () => {
   }
 
   return (
-    <section className="my-12 container mx-auto">
+    <section className="px-6 lg:px-0 my-12 container mx-auto">
       <div className="flex flex-col gap-4 md:flex-row justify-between items-center">
         <h2 className="font-semibold text-2xl mb-4">{t("content.h")}</h2>
         <ul className='flex items-center justify-between gap-4'>

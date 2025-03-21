@@ -22,7 +22,7 @@ const Dedication = () => {
         {/* header dari halaman catatan  */}
         <Header /> 
 
-        <section className="container mx-auto">
+        <section className="px-6 lg:px-0 container mx-auto">
           <h1 className="text-center text-lg font-semibold my-20">still process</h1>
         </section>
       </main>
