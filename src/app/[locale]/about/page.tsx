@@ -25,7 +25,7 @@ const About = () => {
         {/* header dari halaman tentang */}
         <Header />
 
-        <section className="my-8 mx-auto container">
+        <section className="px-6 lg:px-0 my-8 mx-auto container">
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:gap-12">
             <p className="text-sm font-regular text-gray-600">
               {t.rich("p1", {

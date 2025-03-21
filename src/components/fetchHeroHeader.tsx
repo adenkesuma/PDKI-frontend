@@ -39,7 +39,7 @@ const FetchHeroHeader = ({ topNews }: { topNews: NewsProps[] }) => {
             <header>
                 <Navigation />
 
-                <div className="relative h-52 lg:h-[80vh]">
+                <div className="relative h-screen lg:h-[80vh]">
                   <Image 
                       className={`w-full h-full bg-cover bg-center object-cover absolute z-0 transition-opacity`}
                       src={Banner}
@@ -49,7 +49,7 @@ const FetchHeroHeader = ({ topNews }: { topNews: NewsProps[] }) => {
                       height={1000}
                   />
                   <div className="bg-white absolute top-1/3 left-1/2 -translate-x-1/2 p-6 flex flex-col items-center gap-3">
-                    <h1 className="text-3xl text-center font-bold text-[#274698]">
+                    <h1 className="text-xl lg:text-3xl text-center font-bold text-[#274698]">
                       Dear friends, colleagues, and all Family medicine enthusiasts, The Family Medicine Forum 2025 is coming.
                     </h1>
                     <Link href={'/'} className="py-2 px-10 bg-[#274698] text-white font-semibold">

@@ -11,7 +11,7 @@ const Footer: FC = () => {
 
   return (
     <footer>
-      <div className="bg-[#274698] py-6">
+      <div className="bg-[#274698] px-8 py-6">
         <div className="container mx-auto flex flex-col md:flex-row md:justify-between md:items-start items-center gap-4 md:gap-6 lg:gap-8">
           <div className="flex flex-col items-center md:items-start">
             <h4 className="text-xl lg:text-2xl font-semibold mb-3 text-white text-center md:text-left">Perhimpunan Dokter <br /> Keluarga Indonesia</h4>
