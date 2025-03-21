@@ -24,12 +24,12 @@ const UpcomingConferenceBox = ({
       <h2 className="font-semibold text-[18px] lg:text-[20px] mb-4">
         {t("title")}
       </h2>
-      <div key={data?.conference_id} className="flex flex-col rounded-2xl border border-gray-200 p-3 h-[380px] lg:h-[410px]">
-          <div className="w-full h-full overflow-hidden rounded-lg">
+      <div key={data?.conference_id} className="flex flex-col bg-[#f7f7f7] border border-[#274698] p-3 h-[380px] lg:h-[410px]">
+          <div className="w-full h-full overflow-hidden">
             <Image
               width={400}
               height={400}
-              className="hover:scale-110 duration-100 rounded-lg w-full h-full bg-cover object-cover"
+              className="hover:scale-110 duration-100 border w-full h-full bg-cover object-cover"
               src={process.env.BASE_URL + data?.image}
               alt="conference image"
             />
@@ -44,7 +44,7 @@ const UpcomingConferenceBox = ({
           </div>
           <Link 
             href={`/conference/${data?.conference_id}`} 
-            className="bg-[#274698] rounded-lg text-xs md:text-sm font-medium text-white py-2 text-center"
+            className="bg-[#274698] text-xs md:text-sm font-medium text-white py-2 text-center"
           >
             Detail
           </Link> 

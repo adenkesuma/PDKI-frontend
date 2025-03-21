@@ -32,13 +32,13 @@ const LatestConferenceBox = ({
         {fourLatestConference.map((item: ConferenceProps) => (
           <div 
             key={item.conference_id}
-            className="p-3 rounded-xl border boder-gray-200 flex flex-col gap-4"
+            className="p-3 border border-[#274698] bg-[#f7f7f7] flex flex-col gap-4"
           >
             <figure className="h-[160px] block overflow-hidden">
               <Image
                 width={300}
                 height={300}
-                className="duration-100 object-cover bg-cover h-full hover:scale-110 w-full rounded-lg"
+                className="duration-100 object-cover bg-cover h-full hover:scale-110 w-full"
                 src={process.env.BASE_URL + item?.image}
                 alt="news 1"
               />
@@ -54,7 +54,7 @@ const LatestConferenceBox = ({
               </div>
             </div>
 
-            <Link href={`/conference/${item.conference_id}`} className="p-2 text-sm font-medium w-full bg-[#274698] text-center rounded-lg text-white">
+            <Link href={`/conference/${item.conference_id}`} className="p-2 text-sm font-medium w-full bg-[#274698] text-center  text-white">
               Detail
             </Link>
           </div>

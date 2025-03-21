@@ -10,7 +10,7 @@ const LatestCoursesBox = ({ fourLatestCourses }: { fourLatestCourses: ITrainingD
         <div className="mt-12">
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-base lg:text-2xl font-semibold text-gray-800">
-                  Pelatihan Terbaru
+                 Latest Courses 
               </h2>
               <Link href="/news" className="flex justify-between items-center gap-1 sm:gap-2 text-[#274698] font-medium text-xs md:text-sm">
                 Lihat Semua

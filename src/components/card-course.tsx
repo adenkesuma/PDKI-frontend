@@ -46,12 +46,12 @@ const CardCourse: FC<{
   }, [data]);
 
   return (
-    <div className="rounded-xl bg-white p-2 sm:p-3 border">
+    <div className=" bg-[#f7f7f7] p-2 sm:p-3 border border-[#274698]">
       <figure>
         <Image
           src={img}
           alt="thumnail pelatihan image"
-          className="rounded-lg h-28 lg:h-40 w-full bg-cover object-cover"
+          className="h-28 lg:h-40 w-full bg-cover object-cover"
           width={2000}
           height={100}
           onError={() => setImg("/assets/images/default-image-course.jpg")}
@@ -87,7 +87,7 @@ const CardCourse: FC<{
         {/* button detail */}
         <Link
           href={`${process.env.NEXT_PUBLIC_P2KB_URL}/courses/${data.id}`}
-          className="text-center text-white font-medium text-xs sm:text-sm mt-2 w-full p-2 rounded-lg bg-[#274684]"
+          className="text-center text-white font-medium text-xs sm:text-sm mt-2 w-full p-2 bg-[#274684]"
         >
           Detail
         </Link>

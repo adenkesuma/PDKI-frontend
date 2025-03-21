@@ -23,13 +23,13 @@ const Home = () => {
         {/* <Header heading="PDKI" subheading={t("1.description")} /> */}
         <Header />
 
-        <section className="mt-8 grid grid-cols-1 gap-6 items-end md:grid-cols-3">
+        <section className="container mx-auto mt-8 grid grid-cols-1 gap-6 items-end md:grid-cols-3">
           <TrendingVideo />
           <UpcomingConference />
           <TrendingNews />
         </section>
 
-        <section className="mt-8 mb-8">
+        <section className="container mx-auto mt-8 mb-8">
           <Quote />
           <LatestConference />
           <LatestNews />

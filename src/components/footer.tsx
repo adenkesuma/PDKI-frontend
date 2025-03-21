@@ -11,8 +11,8 @@ const Footer: FC = () => {
 
   return (
     <footer>
-      <div className="container mx-auto px-4 md:px-6 py-8 lg:px-10 mb:mb-6 lg:mb-8 xl:mb-14 lg:py-10 rounded-xl bg-[#274698]">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-start items-center gap-4 md:gap-6 lg:gap-8">
+      <div className="bg-[#274698] py-6">
+        <div className="container mx-auto flex flex-col md:flex-row md:justify-between md:items-start items-center gap-4 md:gap-6 lg:gap-8">
           <div className="flex flex-col items-center md:items-start">
             <h4 className="text-xl lg:text-2xl font-semibold mb-3 text-white text-center md:text-left">Perhimpunan Dokter <br /> Keluarga Indonesia</h4>
             <Image 
@@ -20,7 +20,7 @@ const Footer: FC = () => {
               src={LOGOS}
               alt="footer logos white"
             />
-            <p className="text-center font-medium mt-4 text-white text-[14px]">&copy; Copyright PDKI 2023, All rights reserved</p>
+            <p className="text-center font-medium mt-4 text-white text-sm">&copy; Copyright PDKI 2023, All rights reserved</p>
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-4 xl:gap-16">
             <ul className="flex flex-col gap-4 items-center">

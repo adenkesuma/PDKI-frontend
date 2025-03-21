@@ -21,7 +21,7 @@ const Navbar: FC = () => {
   return (
     <>
       <nav className="py-3">
-        <div className="flex justify-between items-center">
+        <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="font-bold text-2xl md:text-4xl text-gray-800">PDKI</Link>
           <ul className="hidden sm:flex justify-center gap-0 md:gap-2 items-center">
             <li>
@@ -64,7 +64,7 @@ const Navbar: FC = () => {
             :
             <div className="flex justify-center gap-4 items-center">
               {/* <LocaleSwitcher /> */}
-              <button onClick={handleShowLogin} className="bg-[#274698] px-6 py-2 xl:text-base duration-75 text-white md:px-8 rounded-xl font-medium text-sm">
+              <button onClick={handleShowLogin} className="bg-[#274698] px-6 py-2 xl:text-base duration-75 text-white md:px-8  font-medium text-sm">
                 Login
               </button>
             </div>
