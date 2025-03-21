@@ -16,17 +16,17 @@ const MemberPdki = () => {
   }
 
   return (
-    <section className="my-12">
+    <section className="my-12 container mx-auto">
       <div className="flex flex-col gap-4 md:flex-row justify-between items-center">
         <h2 className="font-semibold text-2xl mb-4">{t("content.h")}</h2>
         <ul className='flex items-center justify-between gap-4'>
           <Link 
-            className={`text-[#274698] ${path[2] === "copc" ? "bg-[#274698] border-none text-white" : ""} rounded-xl py-2 px-4 border font-medium duration-75 border-gray-300`} 
+            className={`text-[#274698] py-2 px-4 border font-medium duration-75 border-gray-300`} 
             href="/member/copc">
               Copc
           </Link>
           <Link 
-            className={`text-[#274698] ${path[2] === "fomc" ? "bg-[#274698] border-none text-white" : ""} rounded-xl py-2 px-4 border font-medium duration-75 border-gray-300`}
+            className={`text-[#274698]  py-2 px-4 border font-medium duration-75 border-gray-300`}
             href="/member/fomc">
               Fomc
           </Link>

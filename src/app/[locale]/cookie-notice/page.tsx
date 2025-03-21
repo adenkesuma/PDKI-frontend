@@ -12,7 +12,7 @@ const CookieNotice = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-8 mb-8 flex flex-col gap-6">
+      <div className="container mx-auto mt-8 mb-8 flex flex-col gap-6">
         {/* back navigate */}
         <Link href="/" className="flex gap-6 flex-row items-start">
           <VscArrowLeft className="text-[24px] font-semibold mb-6" />

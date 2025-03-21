@@ -21,11 +21,11 @@ const CardMember: FC<CardMemberProps> = ({
             <div
                 id={npa_pdki}
                 key={npa_pdki}
-                className='bg-[#fff] border border-gray-200 p-6 rounded-xl flex flex-col items-center gap-6'
+                className='bg-[#fjfjfj] border border-[#274698] p-6 flex flex-col items-center gap-6'
             >
                 <div className="flex gap-6 items-center">
                     <Image
-                        className="w-[150px] h-[150px] object-cover rounded-[50%]"
+                        className="w-24 h-24 object-cover"
                         src={process.env.BASE_URL + pas_foto}
                         alt="foto member"
                         width={300}

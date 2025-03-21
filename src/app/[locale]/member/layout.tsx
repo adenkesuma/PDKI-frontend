@@ -27,7 +27,7 @@ export default function MemberLayout({
           <Header />
 
           {/* children */}
-          <div>
+          <div >
             <MemberPdki />
             {children}
           </div>
